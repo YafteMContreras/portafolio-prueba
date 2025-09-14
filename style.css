@@ -12,6 +12,22 @@ body{
 
 }
 
+.header{
+    padding: 2% 0% 0% 15%;
+}
+
+.header__menu{
+    display: flex;
+    gap: 20px;
+}
+
+.header__menu__link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color:#22D4FD
+}
+
 .titulo-destaque{
     color: #22D4FD
 }
@@ -19,7 +35,7 @@ body{
 .presentacion{
     display: flex;
     align-items: center;
-    margin: 10% 15%;
+    padding: 7% 15%;
     justify-content: space-between;
 }
 
