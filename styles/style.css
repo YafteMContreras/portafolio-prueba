@@ -129,5 +129,23 @@ footer{
     
     .presentacion{
         flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .presentacion__contenido{
+        width: auto;
+    }
+
+    .presentacion__enlaces{
+        width: auto;
+    }
+
+    .presentacion__enlaces__link{
+        width: 40%;
+        height: auto;
+    }
+
+    .presentacion__imagen{
+        /* width:auto; */
     }
 }
