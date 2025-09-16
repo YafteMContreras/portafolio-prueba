@@ -130,6 +130,7 @@ footer{
     .presentacion{
         flex-direction: column-reverse;
         padding: 5%;
+        gap: 1.5rem;
     }
 
     .presentacion__contenido{
@@ -146,6 +147,7 @@ footer{
     }
 
     .presentacion__imagen{
-        /* width:auto; */
+        width:auto;
+        height: auto;
     }
 }
