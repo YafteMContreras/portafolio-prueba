@@ -117,3 +117,9 @@ footer{
     font-weight: 400;
     text-align: center;
 }
+
+@media(max-width:1200px) {
+    .presentacion{
+        flex-direction: column-reverse;
+    }
+}
