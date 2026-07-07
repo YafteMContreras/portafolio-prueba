@@ -8,7 +8,7 @@
     --color-fondo-general: #0E161B;
     --color-fondo-tarjetasBloques: #1A262F;
     --color-integracion: #2C4A5E;
-    --color-texto-principal: #F0F4F8;
+    --color-text-principal: #F0F4F8;
     --color-acento: #00FFCC;
 
     --fuente-montserrat: 'Montserrat', sans serif;
@@ -44,7 +44,7 @@ body{
     text-decoration: none;
 }
 
-.titulo-destaque{
+.title-destaque{
     color: var(--color-terciario)
 }
 
@@ -62,18 +62,18 @@ body{
     gap: 2.5rem;
 }
 
-.presentation__content__titulo{
+.presentation__content__title{
     font-size: 2.25rem;
     font-family: "Krona One", sans-serif;
 }
 
-.presentation__content__texto{
+.presentation__content__text{
     font-family: "Krona One", sans-serif;
     font-size: 1.5rem;
     font-weight: 100;
 }
 
-.presentation__enlaces{
+.presentation__links{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -81,13 +81,13 @@ body{
     gap: 2.25rem;
 }
 
-.presentation__enlaces__subtitulo{
+.presentation__links__subtitle{
     font-family: "Krona One", sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
 }
 
-.presentation__enlaces__link{
+.presentation__links__link{
     width: 80%;
     background-color: var(--color-primario);
     text-align: center;
@@ -106,7 +106,7 @@ body{
     gap: 0.625rem;
 }
 
-.presentation__enlaces__link:hover{
+.presentation__links__link:hover{
     background-color: #272727;
 }
 
@@ -145,11 +145,11 @@ footer{
         width: auto;
     }
 
-    .presentation__enlaces{
+    .presentation__links{
         width: auto;
     }
 
-    .presentation__enlaces__link{
+    .presentation__links__link{
         width: 40%;
         height: auto;
     }
