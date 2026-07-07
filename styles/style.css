@@ -28,10 +28,9 @@ body{
 
 .header{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 2% 0% 0% 15%;
+    padding: 2rem 10%;
 }
 
 .header__name{
