@@ -85,7 +85,7 @@ body{
 }
 
 .presentation__cv{
-    width: 80%;
+    width: 30%;
     background-color: var(--color-fondo-general);
     text-align: center;
     padding: 1.53rem 0;
@@ -95,7 +95,7 @@ body{
     font-family: "Krona One", sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--color-text-principal);
+    color: var(--color-acento);
     text-decoration: none;  
     
     display: flex;
