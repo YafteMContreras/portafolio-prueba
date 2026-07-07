@@ -55,6 +55,12 @@ body{
     justify-content: space-between;
 }
 
+.presentation__image{
+    border-radius: 50%;
+    margin:auto;
+    width: 40%;
+}
+
 .presentation__content{
     width: 100%;
     display: flex;
@@ -110,12 +116,6 @@ body{
     background-color: #272727;
 }
 
-.presentation__image{
-    border-radius: 50%;
-    align-items: center;
-    width: 40%;
-}
-
 footer{
     background-color: var(--color-terciario);
     padding: 1.5rem;
@@ -155,7 +155,7 @@ footer{
     }
 
     .presentation__image{
-        width:300;
-        height: 300;
+        width: auto;
+        height: auto;
     }
 }
