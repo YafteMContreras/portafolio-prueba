@@ -5,6 +5,12 @@
     --color-secundario:#F0F4F8;
     --color-terciario:#00FFCC;
 
+    --color-fondo-general: #0E161B;
+    --color-fondo-tarjetasBloques: #1A262F;
+    --color-integracion: #2C4A5E;
+    --color-texto-principal: #F0F4F8;
+    --color-acento: #00FFCC;
+
     --fuente-montserrat: 'Montserrat', sans serif;
     --funete-krona: 'Krona One', sans serif;
 }
