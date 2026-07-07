@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --color-primario:#0E161B;
-    --color-secundario:#F0F4F8;
-    --color-terciario:#00FFCC;
-
     --color-fondo-general: #0E161B;
     --color-fondo-tarjetasBloques: #1A262F;
     --color-integracion: #2C4A5E;
@@ -53,7 +49,7 @@ body{
 }
 
 .title-destaque{
-    color: var(--color-terciario)
+    color: var(--color-acento)
 }
 
 .presentation{
@@ -90,16 +86,16 @@ body{
 
 .presentation__cv{
     width: 80%;
-    background-color: var(--color-primario);
+    background-color: var(--color-fondo-general);
     text-align: center;
     padding: 1.53rem 0;
     border-radius: 8px;
-    border: 0.125rem solid var(--color-terciario);
+    border: 0.125rem solid var(--color-acento);
 
     font-family: "Krona One", sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--color-secundario);
+    color: var(--color-text-principal);
     text-decoration: none;  
     
     display: flex;
@@ -125,9 +121,9 @@ body{
 }
 
 footer{
-    background-color: var(--color-terciario);
+    background-color: var(--color-acento);
     padding: 1.5rem;
-    color: var(--color-primario);
+    color: var(--color-fondo-general);
     font-family: "Montserrat", sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
