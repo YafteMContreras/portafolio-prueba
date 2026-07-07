@@ -48,32 +48,32 @@ body{
     color: var(--color-terciario)
 }
 
-.presentacion{
+.presentation{
     display: flex;
     align-items: center;
     padding: 7% 8%;
     justify-content: space-between;
 }
 
-.presentacion__contenido{
-    width: 49%;
+.presentation__content{
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
 }
 
-.presentacion__contenido__titulo{
+.presentation__content__titulo{
     font-size: 2.25rem;
     font-family: "Krona One", sans-serif;
 }
 
-.presentacion__contenido__texto{
+.presentation__content__texto{
     font-family: "Krona One", sans-serif;
     font-size: 1.5rem;
     font-weight: 100;
 }
 
-.presentacion__enlaces{
+.presentation__enlaces{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -81,13 +81,13 @@ body{
     gap: 2.25rem;
 }
 
-.presentacion__enlaces__subtitulo{
+.presentation__enlaces__subtitulo{
     font-family: "Krona One", sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
 }
 
-.presentacion__enlaces__link{
+.presentation__enlaces__link{
     width: 80%;
     background-color: var(--color-primario);
     text-align: center;
@@ -106,12 +106,14 @@ body{
     gap: 0.625rem;
 }
 
-.presentacion__enlaces__link:hover{
+.presentation__enlaces__link:hover{
     background-color: #272727;
 }
 
-.presentacion__imagen{
-    width: 49%;
+.presentation__image{
+    border-radius: 50%;
+    align-items: center;
+    width: 40%;
 }
 
 footer{
@@ -133,27 +135,27 @@ footer{
         justify-content: center;
     }
     
-    .presentacion{
+    .presentation{
         flex-direction: column-reverse;
         padding: 5%;
         gap: 1.5rem;
     }
 
-    .presentacion__contenido{
+    .presentation__content{
         width: auto;
     }
 
-    .presentacion__enlaces{
+    .presentation__enlaces{
         width: auto;
     }
 
-    .presentacion__enlaces__link{
+    .presentation__enlaces__link{
         width: 40%;
         height: auto;
     }
 
-    .presentacion__imagen{
-        width:auto;
-        height: auto;
+    .presentation__image{
+        width:300;
+        height: 300;
     }
 }
