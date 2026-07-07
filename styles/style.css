@@ -109,8 +109,7 @@ body{
 
 .presentation__links{
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 2.25rem;
 }
@@ -122,19 +121,6 @@ body{
 }
 
 .presentation__links__link{
-    width: 80%;
-    background-color: var(--color-primario);
-    text-align: center;
-    padding: 1.53rem 0;
-    border-radius: 8px;
-    border: 0.125rem solid var(--color-terciario);
-
-    font-family: "Krona One", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: var(--color-secundario);
-    text-decoration: none;  
-    
     display: flex;
     justify-content: center;
     gap: 0.625rem;
