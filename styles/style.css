@@ -34,7 +34,9 @@ body{
 }
 
 .header__name{
-    
+    font-family: var(--funete-krona);
+    font-size: 1.1rem;
+    color:var(--color-text-principal)
 }
 
 .header__menu{
