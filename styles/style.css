@@ -20,8 +20,10 @@
 body{
     background-color: var(--color-fondo-general);
     color: var(--color-text-principal);
-    box-sizing: border-box;
-
+    font-family: var(--fuente-montserrat);
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
 }
 
 .header{
