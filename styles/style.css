@@ -63,7 +63,7 @@ body{
     border-radius: 50%;
     margin:auto;
     width: 40%;
-    border: 0.125rem solid var(--color-acento);
+    border: 0.125rem solid var(--color-integracion);
 }
 
 .presentation__content{
@@ -123,7 +123,7 @@ body{
 footer{
     background-color: var(--color-acento);
     padding: 1.5rem;
-    color: var(--color-fondo-general);
+    color: var(--color-fondo-tarjetasBloques);
     font-family: "Montserrat", sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
