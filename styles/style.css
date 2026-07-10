@@ -97,20 +97,22 @@ body{
 }
 
 .presentation__cv{
+    display: inline-block;
+    background-color: transparent;
+    color: var(--color-acento);
+    border: 2px solid var(--color-acento);
+    padding: 0.8rem 2rem;
+    border-radius: 5px;
+
+
     width: 30%;
-    background-color: var(--color-fondo-general);
     text-align: center;
-    padding: 1.53rem 0;
-    border-radius: 8px;
-    border: 0.125rem solid var(--color-acento);
 
     font-family: "Krona One", sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--color-acento);
     text-decoration: none;  
     
-    display: flex;
     justify-content: center;
     gap: 0.625rem;
 }
