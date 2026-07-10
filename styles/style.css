@@ -52,6 +52,10 @@ body{
     transistion: color 0.3s ease;
 }
 
+.header__menu__link:hover{
+    color: var(--color-acento);
+}
+
 .title-destaque{
     color: var(--color-acento)
 }
