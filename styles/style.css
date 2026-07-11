@@ -108,6 +108,12 @@ body{
     transition: all 0.3 ease;
 }
 
+.presentation__cv:hover{
+    background-color: var(--color-acento);
+    color: var(--color-fondo-general);
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.4);
+}
+
 .presentation__links{
     display: flex;
     flex-direction: row;
