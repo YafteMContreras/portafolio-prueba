@@ -138,7 +138,8 @@ body{
 }
 
 .presentation__links__link:hover{
-    background-color: #272727;
+    border-color: var(--color-acento);
+    transform: translateY(-3px);
 }
 
 footer{
