@@ -151,14 +151,12 @@ body {
     transition: border-color 0.3s ease;
 }
 
-
-footer {
-    background-color: var(--color-acento);
+.footer {
+    background-color: var(--color-fondo-tarjetas);
+    border-top: 1px solid var(--color-integracion);
     padding: 1.5rem;
-    color: var(--color-fondo-tarjetasBloques);
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 400;
+    color: var(--color-textos-largos);
+    font-size: 0.9rem;
     text-align: center;
 }
 
